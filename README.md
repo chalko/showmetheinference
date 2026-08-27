@@ -1,4 +1,3 @@
 # Show Me the Infernce
 
-Content and tooling for https://showmetheinference.com.
-
+Content and tooling for <https://showmetheinference.com>.
