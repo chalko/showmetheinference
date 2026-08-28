@@ -51,18 +51,12 @@ theme = 'PaperMod'
     { name = 'rss', url = '/index.xml' },
   ]
 
+  [params.homeInfoParams]
+    Title = "Show Me the Inference"
+    Content = "Local AI, GPU compute architecture, and autonomous agentic staffs by Nick Chalko."
+
   [params.profileMode]
-    enabled = true
-    title = 'Show Me the Inference'
-    subtitle = 'Local AI and Agentic Staffs'
-    imageUrl = ''
-    imageTitle = 'Nick Chalko'
-    imageWidth = 120
-    imageHeight = 120
-    buttons = [
-      { name = 'Articles', url = '/posts' },
-      { name = 'About', url = '/about' },
-    ]
+    enabled = false
 
 [menu]
   [[menu.main]]
