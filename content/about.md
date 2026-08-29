@@ -13,8 +13,8 @@ Ex-Google, Ex-Apple, Retired Lt Col USMCR.
 
 ---
 
-I have spent decades building distributed systems, managing large-scale
-infrastructure, and leading engineering teams.
+I have spent decades writing and designing software, building distributed
+systems, and leading engineering teams.
 
 Today, my focus has shifted to **local AI compute, sovereign models, and
 directing autonomous multi-agent staffs**.
