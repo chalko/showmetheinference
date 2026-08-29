@@ -20,7 +20,7 @@ Years ago, I ran a blog called _Show Me the Code_ (a nod to Linus Torvalds's
 famous quote). Today, I add value by choosing the right models, running them
 efficiently, and designing a staff of agents that produce results.
 
-So now I say: **Show me the Inference**.
+So now I say: **Show Me the Inference**.
 
 ---
 
