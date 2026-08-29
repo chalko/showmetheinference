@@ -1,0 +1,56 @@
+/* Option 1: Deep Slate & Electric Cyan (Show Me the Inference) */
+
+:root {
+    --theme: #f8fafc;
+    --entry: #ffffff;
+    --primary: #0f172a;
+    --secondary: #475569;
+    --tertiary: #cbd5e1;
+    --content: #1e293b;
+    --code-block-bg: #0f172a;
+    --code-bg: #f1f5f9;
+    --border: #e2e8f0;
+    --link: #0284c7;
+    --link-hover: #0369a1;
+}
+
+:root[data-theme="dark"] {
+    --theme: #0d1117;
+    --entry: #161b22;
+    --primary: #f0f6fc;
+    --secondary: #8b949e;
+    --tertiary: #30363d;
+    --content: #c9d1d9;
+    --code-block-bg: #161b22;
+    --code-bg: #1f242c;
+    --border: #30363d;
+    --link: #38bdf8;
+    --link-hover: #7dd3fc;
+}
+
+/* Accent link hover & entry hover polish */
+.post-entry {
+    border: 1px solid var(--border);
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.post-entry:hover {
+    border-color: var(--link);
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.08);
+}
+
+.first-entry.home-info {
+    border: 1px solid var(--border);
+}
+
+.entry-content a,
+.post-content a {
+    color: var(--link);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.entry-content a:hover,
+.post-content a:hover {
+    color: var(--link-hover);
+}

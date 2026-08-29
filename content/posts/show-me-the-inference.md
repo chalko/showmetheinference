@@ -16,21 +16,24 @@ enough coding, I would end up writing code late into the night.
 Yet I have not written more than a few lines of code in more than a year—and I
 am having more fun solving problems than I have had in a decade.
 
-I used to run a blog called _Show Me the Code_. Today, the paradigm has shifted.
-Now I say: **Show me the Inference**.
+Years ago, I ran a blog called _Show Me the Code_ (a nod to Linus Torvalds's
+famous quote). Today, I add value by choosing the right models, running them
+efficiently, and designing a staff of agents that produce results.
+
+So now I say: **Show me the Inference**.
 
 ---
 
-## What to Expect
+## What I am exploring
 
 You can expect me to talk about:
 
-- **Local AI & Compute Architecture:** Running local inference, managing GPU
-  infrastructure, and deploying private, sovereign models.
-- **Autonomous Multi-Agent Systems:** How I use multi-agent systems to both
-  write code and interact with the world in direct, practical ways.
-- **Engineering Insights & Sea Stories:** Real-world lessons from decades of
-  systems design, infrastructure, and operations.
+- **Local AI:** Running local inference, managing GPU infrastructure, and
+  deploying private, sovereign models.
+- **Agent Staff:** How I use multi-agent systems to both write code and interact
+  with the world in direct, practical ways.
+- **Sea Stories:** Real-world lessons from decades of systems design,
+  infrastructure, and operations.
 
 ---
 
