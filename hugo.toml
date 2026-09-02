@@ -45,6 +45,10 @@ theme = 'PaperMod'
   showtoc = true
   tocopen = false
 
+  [params.twitter]
+    site = 'chalko'
+    creator = 'chalko'
+
   socialIcons = [
     { name = 'x', url = 'https://x.com/chalko' },
     { name = 'github', url = 'https://github.com/chalko' },
