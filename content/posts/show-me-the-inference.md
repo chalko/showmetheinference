@@ -2,10 +2,9 @@
 title: "Show Me the Inference"
 date: 2026-08-28T12:00:00-07:00
 draft: false
-summary:
-  "Why I stopped writing code by hand after decades of software engineering, and
-  why local AI inference and autonomous multi-agent systems are where real
-  problem solving begins."
+summary: "Why I stopped writing code by hand after decades in engineering, and
+  why local AI inference and multi-agent systems are where real problem
+  solving begins."
 tags: ["AI", "Local AI", "Inference", "Multi-Agent", "Engineering"]
 categories: ["Essays"]
 cover:
@@ -14,6 +13,7 @@ cover:
   relative: false
   hidden: true
   hiddenInList: false
+showtoc: false
 ---
 
 I have always said if I am not coding, I am not happy. If my job did not involve
