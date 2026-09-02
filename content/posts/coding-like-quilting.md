@@ -95,3 +95,10 @@ In my own work with local AI, that means exploring a few practical questions:
   the implementation be completely disposable?
 
 I'll let you know what I learn along the way.
+
+---
+
+## Join the Discussion
+
+- Discuss on **[X / Twitter](https://x.com/chalko/status/2095175576609079425)**
+- Join the conversation on **[LinkedIn](https://www.linkedin.com/posts/chalko_coding-like-quilting-used-to-be-a-valuable-share-7500942865712283648-QlRN/)**
