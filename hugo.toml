@@ -22,6 +22,7 @@ theme = 'PaperMod'
 
 [params]
   env = 'production'
+  google_tag_manager_id = 'GTM-MJMN578Z'
   title = 'Show Me the Inference'
   description = 'Local AI and Agentic Staffs by Nick Chalko'
   keywords = ['AI', 'Inference', 'Grace Blackwell', 'vLLM', 'Talos', 'Kubernetes', 'Multi-Agent', 'Gas City', 'Sovereign AI']
