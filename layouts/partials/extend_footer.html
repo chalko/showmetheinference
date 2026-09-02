@@ -1,6 +1,8 @@
-{{- if and site.Params.google_tag_manager_id hugo.IsProduction }}
+{{- with site.Params.google_tag_manager_id }}
+{{- if and (ne . "") hugo.IsProduction }}
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.Params.google_tag_manager_id }}"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ . }}"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+{{- end }}
 {{- end }}
