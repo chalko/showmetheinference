@@ -49,6 +49,9 @@ theme = 'PaperMod'
     site = 'chalko'
     creator = 'chalko'
 
+  [params.social]
+    twitter = 'chalko'
+
   socialIcons = [
     { name = 'x', url = 'https://x.com/chalko' },
     { name = 'github', url = 'https://github.com/chalko' },
