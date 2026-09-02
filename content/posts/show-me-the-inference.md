@@ -10,13 +10,7 @@ tags: ["AI", "Local AI", "Inference", "Multi-Agent", "Engineering"]
 categories: ["Essays"]
 cover:
   image: "/images/code-to-inference-editorial.jpg"
-  alt:
-    "An editorial split illustration showing green Java code on a 1990s CRT
-    monitor beside the classic Effective Java book and Java mug on the left,
-    contrasting with a modern dark-mode terminal displaying the dialog User:
-    'Add 2-factor authentication to checkout.' and Code Agent: 'Which standard
-    should we use? OAuth 2.0, WebAuthn, MFA, or SMS-OTP?' above the 'Attention
-    Is All You Need' paper on the right."
+  alt: "An editorial split illustration showing green Java code on a 1990s CRT monitor beside the classic Effective Java book and Java mug on the left, contrasting with a modern dark-mode terminal displaying the dialog User: 'Add 2-factor authentication to checkout.' and Code Agent: 'Which standard should we use? OAuth 2.0, WebAuthn, MFA, or SMS-OTP?' above the 'Attention Is All You Need' paper on the right."
   relative: false
   hidden: true
   hiddenInList: false
