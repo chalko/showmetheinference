@@ -83,3 +83,10 @@ even Fable seemed to legislate itself into a corner.
 
 Next week I will be back at it, and I'll let you know which model I selected and
 how it worked on a sample task assigned to Gas City.
+
+---
+
+## Join the Discussion
+
+- Discuss on **[X / Twitter](https://x.com/chalko/status/2100633955070566494)**
+- Join the conversation on **[LinkedIn](https://lnkd.in/p/gtkadbKT)**
