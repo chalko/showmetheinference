@@ -115,6 +115,17 @@ response.
   </figcaption>
 </figure>
 
+[^1]:
+    _Why does the chart show a 2-hour spike when the prompt actually took 1
+    hour?_ The actual inference turn ran for **66.01 minutes** (3,960 seconds),
+    generating 15,511 tokens with zero queue wait. The 2.05-hour (7,392s) spike
+    on the dashboard is a known mathematical artifact of Prometheus
+    `histogram_quantile(0.95, ...)`. Because the vLLM histogram had a wide
+    bucket gap between 32 minutes (`le="1920.0"`) and 128 minutes
+    $1920 + (7680 - 1920) \times 0.95 = 7392\text{s}$. (See the full
+    [investigation report on GitHub](https://github.com/chalko/colt-results/blob/main/reports/2026-09-26-spark-to-k8s-pilot/INVESTIGATION_E2E_LATENCY_SPIKE.md)
+    for the mathematical derivation and forensic breakdown).
+
 The agent was trapped in a reasoning loop over a quote mismatch in a bash
 heredoc, spinning in circles while producing zero output. Yet somehow, the code
 had still been committed.
@@ -208,15 +219,10 @@ evaluating alternative model weights.
 I will also do a deep dive into my agent staff architecture, detailing why I use
 military staff structure (S-3, S-6) to orchestrate autonomous development.
 
-[^1]:
-    _Why does the chart show a 2-hour spike when the prompt actually took 1
-    hour?_ The actual inference turn ran for **66.01 minutes** (3,960 seconds),
-    generating 15,511 tokens with zero queue wait. The 2.05-hour (7,392s) spike
-    on the dashboard is a known mathematical artifact of Prometheus
-    `histogram_quantile(0.95, ...)`. Because the vLLM histogram had a wide
-    bucket gap between 32 minutes (`le="1920.0"`) and 128 minutes
-    (`le="7680.0"`), Prometheus linearly interpolated the 95th percentile across
-    that 96-minute bucket on sparse traffic:
-    $1920 + (7680 - 1920) \times 0.95 = 7392\text{s}$. (See the full
-    [investigation report on GitHub](https://github.com/chalko/colt-results/blob/main/reports/2026-09-26-spark-to-k8s-pilot/INVESTIGATION_E2E_LATENCY_SPIKE.md)
-    for the mathematical derivation and forensic breakdown).
+---
+
+## Join the Discussion
+
+- Discuss on **[X / Twitter](https://x.com/chalko/status/2104960450823860409)**
+- Join the conversation on
+  **[LinkedIn](https://www.linkedin.com/posts/chalko_localai-aiarchitecture-softwareengineering-share-7510722630040096768-36oI/)**
