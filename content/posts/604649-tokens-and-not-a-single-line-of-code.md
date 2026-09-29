@@ -1,7 +1,7 @@
 ---
 title: "604,649 Tokens and Not a Single Line of Code"
-date: 2026-09-29T08:00:00-07:00
-draft: true
+date: 2026-09-29T05:32:00-07:00
+draft: false
 summary:
   "Suitcase AI ran 604,649 tokens and guardrails read green. But the local agent
   was stuck in a thought loop while a cloud supervisor wrote all the code."
