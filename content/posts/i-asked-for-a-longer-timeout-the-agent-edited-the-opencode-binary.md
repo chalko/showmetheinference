@@ -111,3 +111,11 @@ concrete steps:
 That fixed the immediate damage, but the larger requirement for a productive
 agent system is one that learns. Hence the AAR, and my plans for an agentic
 staff. That post is next (I hope).
+
+---
+
+## Join the Discussion
+
+- Discuss on **[X / Twitter](https://x.com/chalko/status/2108574162092482898)**
+- Join the conversation on
+  **[LinkedIn](https://www.linkedin.com/posts/chalko_localai-aiarchitecture-softwareengineering-activity-7514340296151744512-S2e9)**
