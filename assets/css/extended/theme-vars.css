@@ -103,3 +103,157 @@ section.agent-trace .trace-block {
 section.agent-trace .trace-block:last-child {
     margin-bottom: 0;
 }
+
+/* Human-to-Agent & Multi-Agent Dialog Callouts */
+section.agent-dialog {
+    margin: 1.75rem 0;
+    padding: 1.25rem 1.5rem;
+    background: var(--code-block-bg);
+    color: #e2e8f0;
+    border-left: 4px solid #38bdf8;
+    border-radius: 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1rem;
+    line-height: 1.6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+section.agent-dialog.user-prompt {
+    border-left-color: #38bdf8;
+}
+
+section.agent-dialog.agent-reply {
+    border-left-color: #a855f7;
+}
+
+section.agent-dialog .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #94a3b8;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+section.agent-dialog .dialog-author {
+    color: #38bdf8;
+    font-weight: 700;
+}
+
+section.agent-dialog .dialog-body {
+    color: #f1f5f9;
+}
+
+/* iChat / Conversational Chat Thread (Agent on Left, User on Right) */
+.chat-thread,
+section.agent-dialog.chat-style,
+section.chat-thread {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    margin: 1.75rem 0;
+    padding: 1.25rem;
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="dark"] .chat-thread,
+:root[data-theme="dark"] section.agent-dialog.chat-style,
+:root[data-theme="dark"] section.chat-thread {
+    background: rgba(22, 27, 34, 0.6);
+    border-color: #30363d;
+}
+
+.chat-thread .chat-bubble,
+section.agent-dialog .agent-dialog,
+section.agent-dialog .user-dialog,
+section.chat-thread .agent-dialog,
+section.chat-thread .user-dialog {
+    position: relative;
+    max-width: 82%;
+    padding: 0.75rem 1.1rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chat-thread .bubble-author,
+section.agent-dialog .bubble-author,
+section.chat-thread .bubble-author {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Agent Bubble (Left-Aligned, Slate/Purple tone) */
+.chat-thread .agent-bubble,
+section.agent-dialog .agent-dialog,
+section.chat-thread .agent-dialog {
+    align-self: flex-start;
+    background: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    border-radius: 16px 16px 16px 4px;
+}
+
+:root[data-theme="dark"] .chat-thread .agent-bubble,
+:root[data-theme="dark"] section.agent-dialog .agent-dialog,
+:root[data-theme="dark"] section.chat-thread .agent-dialog {
+    background: #21262d;
+    color: #e6edf3;
+    border-color: #30363d;
+}
+
+.chat-thread .agent-bubble .bubble-author,
+section.agent-dialog .agent-dialog .bubble-author,
+section.chat-thread .agent-dialog .bubble-author {
+    color: #c084fc;
+}
+
+/* User Bubble (Right-Aligned, Electric Blue/Cyan tone) */
+.chat-thread .user-bubble,
+section.agent-dialog .user-dialog,
+section.chat-thread .user-dialog {
+    align-self: flex-end;
+    background: #0284c7;
+    color: #ffffff;
+    border: 1px solid #0369a1;
+    border-radius: 16px 16px 4px 16px;
+    text-align: left;
+}
+
+:root[data-theme="dark"] .chat-thread .user-bubble,
+:root[data-theme="dark"] section.agent-dialog .user-dialog,
+:root[data-theme="dark"] section.chat-thread .user-dialog {
+    background: #0369a1;
+    color: #f0f6fc;
+    border-color: #38bdf8;
+}
+
+.chat-thread .user-bubble .bubble-author,
+section.agent-dialog .user-dialog .bubble-author,
+section.chat-thread .user-dialog .bubble-author {
+    color: #bae6fd;
+    text-align: right;
+}
+
+.chat-thread code,
+section.agent-dialog code,
+section.chat-thread code {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0.15em 0.35em;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
