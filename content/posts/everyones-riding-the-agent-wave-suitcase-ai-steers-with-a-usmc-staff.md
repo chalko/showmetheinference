@@ -193,6 +193,7 @@ something that is working.
 
 ## Join the Discussion
 
+- Discuss on **[Hacker News](https://news.ycombinator.com/item?id=50133285)**
 - Discuss on **[X / Twitter](https://x.com/chalko/status/2111510226079797680)**
 - Join the conversation on
   **[LinkedIn](https://www.linkedin.com/posts/chalko_astaff-localai-aiarchitecture-activity-7517276129385443328-0UuH)**
