@@ -188,3 +188,11 @@ after Camp Colt), are:
 For now, Camp Colt is in maintenance mode while I run some experiments to decide
 what infrastructure to use for its replacement. I will share more when I have
 something that is working.
+
+---
+
+## Join the Discussion
+
+- Discuss on **[X / Twitter](https://x.com/chalko/status/2111510226079797680)**
+- Join the conversation on
+  **[LinkedIn](https://www.linkedin.com/posts/chalko_astaff-localai-aiarchitecture-activity-7517276129385443328-0UuH)**
