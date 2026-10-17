@@ -7,7 +7,7 @@ summary: "When an agent got stuck on a test timeout, it didn't just configure an
 tags:
   - "AI"
   - "Agents"
-  - "Multi-Agent Systems"
+  - "Multi-Agent"
   - "Guardrails"
   - "Gas City"
 categories: ["War Stories"]
@@ -109,8 +109,8 @@ concrete steps:
    locality of remediation.
 
 That fixed the immediate damage, but the larger requirement for a productive
-agent system is one that learns. Hence the AAR, and my plans for an agentic
-staff. That post is next (I hope).
+agent system is one that learns. Hence the AAR, and my plans for
+[an agentic staff](/posts/everyones-riding-the-agent-wave-suitcase-ai-steers-with-a-usmc-staff/).
 
 ---
 
